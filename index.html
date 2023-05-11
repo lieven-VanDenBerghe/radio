@@ -9,20 +9,53 @@
 <body>
 
 
-
+  <audio id="MNM">
+    <source src="http://icecast.vrtcdn.be/mnm-high.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="nostalgie">
+    <source src="https://playerservices.streamtheworld.com/api/livestream-redirect/NOSTALGIEWHATAFEELING.mp3" type="audio/mpeg">
+  </audio>
   <audio id="radio1">
     <source src="https://25493.live.streamtheworld.com/RADIO1_128.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="radio-plus">
+    <source src="https://live.radiostudio.be/plus" type="audio/mpeg">
+  </audio>
+  <audio id="Q-music">
+    <source src="https://21293.live.streamtheworld.com/QMUSIC.mp3" type="audio/mpeg">
   </audio>
   <audio id="WillY">
     <source src="https://streams.radio.dpgmedia.cloud/redirect/willy_be/mp3" type="audio/mpeg">
   </audio>
   
-
   
+  
+
+
+  <img src="./images/MNM.png" alt="MNM" style="width:200px;height:200px;">
+  <br>
+  <button id="MNM" onclick="Audio(this.id)" type="button">Play Audio</button>
+
+  <br></br> 
+  <img src="./images/nostalgie.png" alt="nostalgie" style="width:200px;height:200px;">
+  <br>
+  <button id="nostalgie" onclick="Audio(this.id)" type="button">Play Audio</button>
+
+  <br></br>
+  <img src="./images/Q-music.png" alt="Q-music" style="width:200px;height:200px;">
+  <br>
+  <button id="Q-music" onclick="Audio(this.id)" type="button">Play Audio</button>
+  
+  <br></br>
   <img src="./images/radio1.png" alt="Radio 1" style="width:200px;height:200px;">
   <br>
   <button id="radio1" onclick="Audio(this.id)" type="button">Play Audio</button>
    
+  <br></br>
+  <img src="./images/radio-plus.png" alt="radio-plus" style="width:200px;height:200px;">
+  <br>
+  <button id="radio-plus" onclick="Audio(this.id)" type="button">Play Audio</button>
+
   <br></br>
   <img src="./images/willy.png" alt="Willy" style="width:200px;height:200px;">
   <br>
